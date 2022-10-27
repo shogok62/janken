@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>じゃんけん</title>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>じゃんけん</h1>
+        <p class="cover"><img src="img/cover_earth.jpg" alt="カバー写真"></p>
+    </header>
+
+    <main>
+        <ul class="janken">
+            <li id="goo_btn" class="goo janken"> <button type="submit">ぐぅ</button></li>
+            <li id="cho_btn" class="choki janken"> <button type="submit">ちょき</button></li>
+            <li id="par_btn" class="pa janken"> <button type="submit">ぱぁ</button></li>
+        </ul>
+        <div>コンピュータの出した手は？「<span id="pc_hands">Press Button</span>」</div>
+        <div id="judgment">You are thinking...</div>
+    </main>
+
+    <footer></footer>
+   
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/janken.js"></script>
+    
+</body>
+
+</html>
